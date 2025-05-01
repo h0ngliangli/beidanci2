@@ -17,7 +17,7 @@ const isDark = computed({
         return colorMode.value === 'dark'
     },
     set(_isDark) {
-        colorMode.value = _isDark ? 'dark' : 'light'
+        colorMode.preference = _isDark ? 'dark' : 'light'
     }
 })
 </script>
