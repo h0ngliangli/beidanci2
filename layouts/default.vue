@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div>
-      <ColorModeButton />
-    </div>
+    <AppBar />
     <slot />
   </div>
 </template>
